@@ -1,4 +1,1 @@
-# Discord_bot
-To Do:
-- Install node
-- 
+#Discord Bot
