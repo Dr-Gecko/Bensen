@@ -1,0 +1,15 @@
+{
+
+“name”: “BunnyBot”,
+
+“version”: “0.0.5”,
+
+“description”: “Bot that can do all that the moderator bots can and more”,
+
+“main”: “bot.js”,
+
+“author”: “Dr-Gecko”,
+
+“dependencies”: {}
+
+}
