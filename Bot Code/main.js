@@ -48,4 +48,4 @@ client.on("messageCreate", message =>{
         client.commands.get('help').execute(message, args)
     }
 });
-client.login("OTg3MDUwNDg4NDA5MjM1NTA4.G1M4l9.uYdGuDeoQXe-Oiein-pr1Mcjl1gb7f5FCX9y4U");
+client.login(token);
