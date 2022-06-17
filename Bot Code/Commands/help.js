@@ -16,6 +16,7 @@ module.exports = {
         Possum: Sends a random possum video.
         Stab: @ an user and it will say you stabbed the user and show a gif of a animal with a knife. 
         Redpanda: Sends a random video of red pandas.
+        Who: Responds with Bensen introducing himself.
         `)
 
     }
