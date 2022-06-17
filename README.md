@@ -7,4 +7,10 @@
                                   
 ```
 Sir Stabs a lot is a personal projects with a fuckton of bugs im well aware
-Version 
+Bot information: 
+Duck's Name: Bensen
+Name: Stabs-A-Lot
+Version Name: Wicked Moth
+Version Number: 1.0.4
+My Author: https://github.com/Dr-Gecko
+Repository for my code: https://github.com/Dr-Gecko/Sir-Stabs-A-Lot
