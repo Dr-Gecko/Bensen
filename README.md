@@ -22,6 +22,7 @@
 - Possum: Sends a random possum video.
 - Stab: @ an user and it will say you stabbed the user and show a gif of a animal with a knife.
 - Update: Shows latest updates to the bot and links to this repo.
+- Useless: Takes user to the useless website.
 - Redpanda: Sends a random video of red pandas.
 # To do:
 - Get more videos for the animal commands.
