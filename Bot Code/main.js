@@ -41,9 +41,6 @@ client.on("messageCreate", message =>{
     if(command === 'stab'){
         client.commands.get('stab').execute(message, args)
     }
-    if(command === 'shutdown'){
-        client.commands.get('fail').execute(message, args)
-    }
     if(command === 'h'){
         client.commands.get('help').execute(message, args)
     }
