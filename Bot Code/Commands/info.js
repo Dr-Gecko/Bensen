@@ -1,6 +1,6 @@
 module.exports = {
     name: 'info',
-    description: 'Bot info',
+    description: 'Gives information about the bot and its Github repo',
     execute(message, args){
         message.channel.send(`
         Bot information: 
