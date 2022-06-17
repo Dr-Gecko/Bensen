@@ -16,7 +16,7 @@ for(const file of commandFiles){
 }
 
 client.once('ready', () => {
-    console.log("Hi There! I am Sir Stabs-A-Lot \n I have started up properly. Any Important logs will appear here")
+    console.log("Live")
 });
 
 client.on("messageCreate", message =>{
@@ -41,6 +41,15 @@ client.on("messageCreate", message =>{
     }
     if(command === 'boop'){
         client.commands.get('boop').execute(message, args)
+    }
+    if(command === 'redpanda'){
+        client.commands.get('moshu').execute(message, args)
+    }
+    if(command === 'frog'){
+        client.commands.get('frog').execute(message, args)
+    }
+    if(command === 'possum'){
+        client.commands.get('possum').execute(message, args)
     }
 });
 client.login(token);
