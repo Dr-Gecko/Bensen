@@ -11,6 +11,6 @@ module.exports = {
             "https://www.youtube.com/watch?v=NukRJsfgUAw"
             ];
          var randVideo = links[Math.floor(Math.random() * links.length)];
-        message.channel.send(randVideo)
+        message.channel.send("Here is a random frog video:" + randVideo)
     }
 }
