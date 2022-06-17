@@ -14,6 +14,7 @@ module.exports = {
         Ping: Pong!
         Pong: Ping!
         Possum: Sends a random possum video.
+        PM: Private message, coming soon.
         Stab: @ an user and it will say you stabbed the user and show a gif of a animal with a knife.
         Update: Shows latest updates to the bot and links to this repo.
         Useless: Sends a link to the useless website.
