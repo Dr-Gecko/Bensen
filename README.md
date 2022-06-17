@@ -6,10 +6,24 @@
     |____/ \___|_| |_|___/\___|_| |_|               `---'   
                                   
 ```
-Sir Stabs a lot is a personal projects with a fuckton of bugs im well aware
 # Bot information: 
 - Duck's Name: Bensen
 - Version Name: Wicked Moth
 - Version Number: 1.0.4
-- My Author: https://github.com/Dr-Gecko
-- Repository for my code: https://github.com/Dr-Gecko/Sir-Stabs-A-Lot
+# Command Information:
+- Boop: Sends a gif of a dogs snoot being booped.
+- Flip: Flips a coin.
+- Frog: Sends a random video of frogs.
+- H: Displays this.
+- HP: Displays this in a private message.
+- Info: Displays information about me.
+- Ping: Pong!
+- Pong: Ping!
+- Possum: Sends a random possum video.
+- Stab: @ an user and it will say you stabbed the user and show a gif of a animal with a knife.
+- Redpanda: Sends a random video of red pandas.
+# To do
+- [ ] Get more videos for the animal commands.
+- [ ] Show how to download and host bot.
+- [ ] Add more commands.
+- [ ] Implement better failsaves then just the bot shutting down
