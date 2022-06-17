@@ -1,9 +1,8 @@
 module.exports = {
-    name: 'hp',
-    description: 'Private Messages Command User',
+    name: 'help',
+    description: 'help command',
     execute(message, args){
-        const user = message.author;
-        user.send(`        
+        message.channel.send(`
         Here are my commands so far:
         
         Boop: Sends a gif of a dogs snoot being booped.
@@ -15,12 +14,9 @@ module.exports = {
         Ping: Pong!
         Pong: Ping!
         Possum: Sends a random possum video.
-        Stab: @ an user and it will say you stabbed the user and show a gif of a animal with a knife.
-        Update: Shows latest updates to the bot and links to this repo.
-        Useless: Sends a link to the useless website.
+        Stab: @ an user and it will say you stabbed the user and show a gif of a animal with a knife. 
         Redpanda: Sends a random video of red pandas.
-        Who: Sends a message of Bensen introducing himself.
-
         `)
+
     }
 }
