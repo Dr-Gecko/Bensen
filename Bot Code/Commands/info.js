@@ -3,11 +3,13 @@ module.exports = {
     description: 'Bot info',
     execute(message, args){
         message.channel.send(`
-        Bot Information:
+        Bot information: 
         Duck's Name: Bensen
         Name: Stabs-A-Lot
-        Version Name: Mothman
+        Version Name: indrik
         Version Number: 1.0.1
+        My Author: https://github.com/Dr-Gecko
+        Repository for my code: https://github.com/Dr-Gecko/Sir-Stabs-A-Lot
         `)
     }
 }
