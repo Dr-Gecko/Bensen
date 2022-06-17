@@ -29,3 +29,4 @@
 - Show how to download and host bot.
 - Add more commands.
 - Implement better failsafes then just the bot shutting down
+- Add more gifs for the boop command
