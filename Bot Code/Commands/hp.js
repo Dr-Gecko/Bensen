@@ -24,5 +24,6 @@ module.exports = {
         Who: Sends a message of Bensen introducing himself.
 
         `)
+        message.channel.send('I sent you a Private message of my commands')
     }
 }
