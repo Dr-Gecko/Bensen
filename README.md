@@ -8,7 +8,7 @@
 ```
 # Bot information: 
 - Duck's Name: Bensen
-- Version Name: Fire Worm
+- Version Name: Spider Snake
 - Version Number: 1.0.6
 # Command Information:
 - Boop: Sends a gif of a dogs snoot being booped.
