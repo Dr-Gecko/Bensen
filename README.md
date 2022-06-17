@@ -8,8 +8,8 @@
 ```
 # Bot information: 
 - Duck's Name: Bensen
-- Version Name: Wicked Moth
-- Version Number: 1.0.4
+- Version Name: Fire Worm
+- Version Number: 1.0.6
 # Command Information:
 - Boop: Sends a gif of a dogs snoot being booped.
 - Flip: Flips a coin.
