@@ -5,7 +5,7 @@ module.exports = {
         message.channel.send(`
         Duck's Name: Bensen
         Name: Stabs-A-Lot
-        Version Name: indrik
+        Version Name: Mothman
         Version Number: 1.0.1
         `)
     }
