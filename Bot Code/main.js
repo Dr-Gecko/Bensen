@@ -23,6 +23,7 @@ client.on("messageCreate", message =>{
     if(!message.content.startsWith(prefix) || message.author.bot) return;
     const args = message.content.slice(prefix.length).split(/ +/);
     const command = args.shift().toLowerCase();
+    
     if(command === 'v'){
         message.channel.send(`Name: Stabs-A-Lot \n Version: 0.5`)
     }
@@ -31,9 +32,6 @@ client.on("messageCreate", message =>{
     }
     if(command === 'author'){
         client.commands.get('author').execute(message, args)
-    }
-    if(command === 'test'){
-        client.commands.get('test').execute(message, args)
     }
     if(command === 'repo'){
         client.commands.get('repo').execute(message, args)
