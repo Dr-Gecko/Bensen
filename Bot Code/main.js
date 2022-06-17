@@ -16,34 +16,31 @@ for(const file of commandFiles){
 }
 
 client.once('ready', () => {
-    console.log("Bot Is Now Running")
+    console.log("Hi There! I am Sir Stabs-A-Lot \n I have started up properly. Any Important logs will appear here")
 });
 
 client.on("messageCreate", message =>{
     if(!message.content.startsWith(prefix) || message.author.bot) return;
     const args = message.content.slice(prefix.length).split(/ +/);
     const command = args.shift().toLowerCase();
-    
     if(command === 'v'){
-        message.channel.send(`Name: Stabs-A-Lot \n Version: 0.5`)
+        client.commands.get('info').execute(message, args)
     }
     if(command === 'ping'){
         client.commands.get('ping').execute(message, args)
+        console.log("Ping Was Used")
     }
-    if(command === 'author'){
-        client.commands.get('author').execute(message, args)
-    }
-    if(command === 'repo'){
-        client.commands.get('repo').execute(message, args)
+    if(command === 'pong'){
+        client.commands.get('pong').execute(message, args)
     }
     if(command === 'stab'){
         client.commands.get('stab').execute(message, args)
     }
-    if(command === 'punch'){
-        client.commands.get('punch').execute(message, args)
-    }
     if(command === 'h'){
         client.commands.get('help').execute(message, args)
+    }
+    if(command === 'boop'){
+        client.commands.get('boop').execute(message, args)
     }
 });
 client.login(token);
