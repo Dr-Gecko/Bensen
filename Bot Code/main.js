@@ -16,7 +16,7 @@ for(const file of commandFiles){
 }
 
 client.once('ready', () => {
-    console.log("Live")
+    console.log("Hi I am Bensen I am now online! Try any of my commands in any of the servers I am in \n")
 });
 
 client.on("messageCreate", message =>{
@@ -43,7 +43,8 @@ client.on("messageCreate", message =>{
     }
     if(command === 'ping'){
         client.commands.get('ping').execute(message, args)
-    }else if(command === 'pong'){
+    }
+    if(command === 'pong'){
         client.commands.get('pong').execute(message, args)
     }
     if(command === 'possum'){
@@ -55,8 +56,14 @@ client.on("messageCreate", message =>{
     if(command === 'redpanda'){
         client.commands.get('moshu').execute(message, args)
     }
+    if(command === 'update'){
+        client.commands.get('update').execute(message, args)
+    }
+    if(command === 'useless'){
+        client.commands.get('useless').execute(message, args)
+    }
     if(command === 'user'){
-        client.command.get('user').execute(message, args)
+        client.commands.get('user').execute(message, args)
     }
     if(command === 'who'){
         client.commands.get('who').execute(message, args)
