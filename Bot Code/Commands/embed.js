@@ -1,13 +1,14 @@
-const { MessageEmbed } = require('discord.js');
-
-// inside a command, event listener, etc.
-const exampleEmbed = new MessageEmbed()
+module.exports = {
+    name: 'embed',
+    description: 'sends embeded message',
+    execute(message, args, Discord){
+        const newEmbed = new Discord.MessageEmbed()
 	.setColor('#0099ff')
 	.setTitle('Some title')
-	.setURL('https://discord.js.org/')
-	.setAuthor({ name: 'Some name', iconURL: 'https://i.imgur.com/AfFp7pu.png', url: 'https://discord.js.org' })
+	.setURL('http://neogeek.com')
+	.setAuthor({ name: 'Some name', iconURL: 'http://neogeek.com/sadcat.jpg', url: 'http://neogeek.com/' })
 	.setDescription('Some description here')
-	.setThumbnail('https://i.imgur.com/AfFp7pu.png')
+	.setThumbnail('http://neogeek.com/sadcat.jpg')
 	.addFields(
 		{ name: 'Regular field title', value: 'Some value here' },
 		{ name: '\u200B', value: '\u200B' },
@@ -15,8 +16,13 @@ const exampleEmbed = new MessageEmbed()
 		{ name: 'Inline field title', value: 'Some value here', inline: true },
 	)
 	.addField('Inline field title', 'Some value here', true)
-	.setImage('https://i.imgur.com/AfFp7pu.png')
+	.setImage('http://neogeek.com/sadcat.jpg')
 	.setTimestamp()
-	.setFooter({ text: 'Some footer text here', iconURL: 'https://i.imgur.com/AfFp7pu.png' });
+	.setFooter({ text: 'Some footer text here', iconURL: 'http://neogeek.com/sadcat.jpg' });
+	  
+	    
+	    
+      message.channel.send(newEmbed);	   
 
-channel.send({ embeds: [exampleEmbed] });
+    }
+}
