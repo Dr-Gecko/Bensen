@@ -24,6 +24,8 @@
 - Update: Shows latest updates to the bot and links to this repo.
 - Useless: Takes user to the useless website.
 - Redpanda: Sends a random video of red pandas.
+- User: Gives user info of a tagged user
+- Who: Sends a message of Bensen introducing himself.
 # To do:
 - Get more videos for the animal commands.
 - Show how to download and host bot.
