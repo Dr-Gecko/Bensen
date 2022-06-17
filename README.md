@@ -1,5 +1,5 @@
 ```
-     ____                            
+     ____                                              
     | __ )  ___ _ __  ___  ___ _ __                 __
     |  _ \ / _ \ '_ \/ __|/ _ \ '_ \              <(o )___
     | |_) |  __/ | | \__ \  __/ | | |              ( ._> /
@@ -22,8 +22,8 @@
 - Possum: Sends a random possum video.
 - Stab: @ an user and it will say you stabbed the user and show a gif of a animal with a knife.
 - Redpanda: Sends a random video of red pandas.
-# To do
+# To do:
 - Get more videos for the animal commands.
 - Show how to download and host bot.
 - Add more commands.
-- Implement better failsaves then just the bot shutting down
+- Implement better failsafes then just the bot shutting down
