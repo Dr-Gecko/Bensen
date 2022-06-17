@@ -39,6 +39,9 @@ client.on("messageCreate", message =>{
     if(command === 'stab'){
         client.commands.get('stab').execute(message, args)
     }
+    if(command === 'punch'){
+        client.commands.get('punch').execute(message, args)
+    }
     if(command === 'h'){
         client.commands.get('help').execute(message, args)
     }
