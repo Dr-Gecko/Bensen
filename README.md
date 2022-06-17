@@ -23,7 +23,7 @@
 - Stab: @ an user and it will say you stabbed the user and show a gif of a animal with a knife.
 - Redpanda: Sends a random video of red pandas.
 # To do
-- [ ] Get more videos for the animal commands.
-- [ ] Show how to download and host bot.
-- [ ] Add more commands.
-- [ ] Implement better failsaves then just the bot shutting down
+- Get more videos for the animal commands.
+- Show how to download and host bot.
+- Add more commands.
+- Implement better failsaves then just the bot shutting down
