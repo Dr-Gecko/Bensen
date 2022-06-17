@@ -1,7 +1,7 @@
 // For Red Panda Stuff
 module.exports = {
     name: 'moshu',
-    description: 'Command to stab other users',
+    description: 'Sends a random video of a red panda',
     execute(message, args){
         var links = [
             "https://www.youtube.com/watch?v=UBcVbAFntQo",
@@ -12,6 +12,6 @@ module.exports = {
             "https://www.youtube.com/watch?v=l-O9_Xq8ABM"
             ];
          var randVideo = links[Math.floor(Math.random() * links.length)];
-        message.channel.send(randVideo)
+        message.channel.send("Here is a video of a red panda: " + randVideo)
     }
 }
