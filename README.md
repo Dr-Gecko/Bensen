@@ -17,6 +17,7 @@
 - H: Displays this.
 - HP: Displays this in a private message.
 - Info: Displays information about me.
+- Insult: Insults tagged user.
 - Ping: Pong!
 - Pong: Ping!
 - Possum: Sends a random possum video.
@@ -30,5 +31,6 @@
 - Get more videos for the animal commands.
 - Show how to download and host bot.
 - Add more commands.
-- Implement better failsafes then just the bot shutting down
-- Add more gifs for the boop command
+- Implement better failsafes then just the bot shutting down.
+- Add more gifs for the boop command.
+- Add more insults to the insult command.
