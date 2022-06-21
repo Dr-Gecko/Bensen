@@ -8,18 +8,6 @@ const commandFiles = fs.readdirSync('./Commands/').filter(file => file.endsWith(
 const { MessageEmbed } = require('discord.js');
 
 
-const exampleEmbed = new MessageEmbed()
-	    .setColor('#000000')
-	    .setTitle('Rules')
-	    .setDescription('Server Rules')
-	    .addFields(
-	    { name: 'Rule 1:', value: 'Do not be unnecessarily mean or cruel, sarcasm is allowed but make sure the other person knows its sarcastic.', inline: false },
-	    { name: 'Rule 2:', value: 'Do not be over the top vulgar, slip ups are allowed but do not be over the top.', inline: false },
-            { name: 'Rule 3:', value: 'Do not post anything you would not want a parent seeing. That includes anything NSFW. ', inline: false },
-            { name: 'Rule 4:', value: 'Act your age and do not try to upset other people, we are here to have fun not target other kids.', inline: false},
-            { name: 'Rule 5:', value: 'Do not forget to take it easy and have fun!', inline: false},
-    	    )
-
 
 const prefix = '-';
 
@@ -30,10 +18,12 @@ for(const file of commandFiles){
 }
 
 client.once('ready', () => {
-    console.log("Hi I am Bensen I am now online! Try any of my commands in any of the servers I am in \n")
+    console.log("Bensen is online")
+    //Change this to what you want the message to be when the bot comes online
 });
 client.on('guildMemberAdd', guildMember =>{
-    guildMember.guild.channels.cache.find('988844144749326378').send(`Welcome <@${guildMember.user.id}`)
+    guildMember.guild.channels.cache.find('988844144749326378').send(`Welcome <@${guildMember.user.id} be sure to check out the rules channel`)
+    //Change channel ID to one the one for the welcome channel in your server if you are using this for your use.
 });
 client.on("messageCreate", message =>{
     if(!message.content.startsWith(prefix) || message.author.bot) return;
@@ -41,9 +31,6 @@ client.on("messageCreate", message =>{
     const command = args.shift().toLowerCase();
     if(command === 'boop'){
         client.commands.get('boop').execute(message, args)
-    }
-    if(command === 'embed'){
-        message.channel.send({ embeds: [exampleEmbed] })
     }
     if(command === 'flip'){
         client.commands.get('flip').execute(message, args)
@@ -72,5 +59,21 @@ client.on("messageCreate", message =>{
     if(command === 'redpanda'){
         client.commands.get('moshu').execute(message, args)
     }
+    if(command === 'rules'){
+        const exampleEmbed = new MessageEmbed()
+	    .setColor('#000000')
+	    .setTitle('Rules')
+	    .addFields(
+	    { name: 'Rule 1:', value: 'Do not be unnecessarily mean or cruel, sarcasm is allowed but make sure the other person knows its sarcastic.', inline: false },
+	    { name: 'Rule 2:', value: 'Do not be over the top vulgar, slip ups are allowed but do not be over the top.', inline: false },
+            { name: 'Rule 3:', value: 'Do not post anything you would not want a parent seeing. That includes anything NSFW. ', inline: false },
+            { name: 'Rule 4:', value: 'Act your age and do not try to upset other people, we are here to have fun not target other kids.', inline: false},
+            { name: 'Rule 5:', value: `If your discord account is not your real name please change your server nickname to do so, if you do not know how to ask Nate and he can help `, inline: false},
+            { name: 'Rule 6:', value: 'Do not forget to take it easy and have fun!', inline: false},
+
+    	    )
+        message.channel.send({ embeds: [exampleEmbed] })
+    }
 });
 client.login(token);
+//Dr-Gecko 2022
