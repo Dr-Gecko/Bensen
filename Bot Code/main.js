@@ -13,8 +13,8 @@ const exampleEmbed = new MessageEmbed()
 	    .setTitle('Rules')
 	    .setDescription('Server Rules')
 	    .addFields(
-		    { name: 'Rule 1:', value: 'Do not be unnecessarily mean or cruel, sarcasm is allowed but make sure the other person knows its sarcastic.', inline: false },
-		    { name: 'Rule 2:', value: 'Do not be over the top vulgar, slip ups are allowed but do not be over the top.', inline: false },
+	    { name: 'Rule 1:', value: 'Do not be unnecessarily mean or cruel, sarcasm is allowed but make sure the other person knows its sarcastic.', inline: false },
+	    { name: 'Rule 2:', value: 'Do not be over the top vulgar, slip ups are allowed but do not be over the top.', inline: false },
             { name: 'Rule 3:', value: 'Do not post anything you would not want a parent seeing. That includes anything NSFW. ', inline: false },
             { name: 'Rule 4:', value: 'Act your age and do not try to upset other people, we are here to have fun not target other kids.', inline: false},
             { name: 'Rule 5:', value: 'Do not forget to take it easy and have fun!', inline: false},
