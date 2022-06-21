@@ -68,7 +68,7 @@ client.on("messageCreate", message =>{
 	    { name: 'Rule 2:', value: 'Do not be over the top vulgar, slip ups are allowed but do not be over the top.', inline: false },
             { name: 'Rule 3:', value: 'Do not post anything you would not want a parent seeing. That includes anything NSFW. ', inline: false },
             { name: 'Rule 4:', value: 'Act your age and do not try to upset other people, we are here to have fun not target other kids.', inline: false},
-            { name: 'Rule 5:', value: `If your discord account is not your real name please change your server nickname to do so, if you do not know how to ask Nate and he can help `, inline: false},
+            { name: 'Rule 5:', value: 'If your discord account is not your real name please change your server nickname to do so, if you do not know how to ask Neo and he can help ', inline: false},
             { name: 'Rule 6:', value: 'Do not forget to take it easy and have fun!', inline: false},
 
     	    )
